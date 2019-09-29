@@ -5,7 +5,7 @@ using UnityEngine;
 public class Ball : MonoBehaviour
 {
     [SerializeField]
-    float speed;
+    float speed = 10;
 
     Vector2 direction;
 
